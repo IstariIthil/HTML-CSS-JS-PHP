@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+.lila {
+    background-color: #a63da0;
+}
+
+.gelb {
+    background-color: #f0a702;
+}
+
+.gruen {
+    background-color: #318624;
+}
+
+.rot {
+    background-color: #df2000;
+}
+
+.blau {
+    background-color: #4069c0;
+}
+
+

@@ -1,0 +1,48 @@
+/*Rangordnung der Selektoren*/
+/*schwach zu stark*/
+/*!important -> id -> class*/
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*am Anfang steht immer das Element, das ich verändern möchte*/
+p { /*innerhalb der Klammer steht der Code, mit dem ich das Element das ich verändern möchte*/
+    
+    /*text-align = Ausrichtung des Textes*/
+    /*weitere Möglichkeiten left (links), center (mitte), justify (Blocksatz)*/
+    text-align: center; /* ; beendet eine Code Zeile*/
+    
+    /*font-family = Schriftart*/
+    font-family:Arial, Helvetica, sans-serif;
+} /*Klammer muss immer zu sein*/
+
+/* .(Punkt) für Klassen*/
+.besonders {
+    /*color = Textfarbe*/
+    color: red;
+}
+
+/* # für eine ID*/
+#absatz {
+    color: blue;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: yellow;
+}
+
+a {
+    
+    color: black;
+}
+/*:hover sind Pseudoklassen, werden mit : eingeleitet*/
+a:hover {
+    color: white;
+    background-color: black;
+    cursor: crosshair;
+}

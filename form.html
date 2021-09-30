@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <title>Formular Felder</title>
+</head>
+<body>
+    <form action="auswertung.php" method="post">
+        <label for="nachname">Name:</label><input type="text" name="nachname">
+        <label for="alter">Alter:</label><input type="number" name="alter" step="2" min="0" max="76">
+        <label for="email">E-Mail</label><input type="email">
+        <input type="submit" value="abschicken">
+        <input type="reset" value="reset">
+        <input type="color">
+        <input type="file">
+        <input type="date">
+    </form>
+</body>
+</html>
